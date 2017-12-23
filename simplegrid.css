@@ -18,7 +18,8 @@
 [class*='col-'] {
 	float: left;
   	min-height: 1px;
-	padding-right: 0px; /* column-space */
+	padding-right: 10px; /* column-space */
+	padding-left: 10px;
 }
 
 [class*='col-'] [class*='col-']:last-child {
